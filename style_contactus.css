@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(181, 220, 255);
+}
+img{
+    border-radius: 50px;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 10vh;
+    background: rgb(135,157,221);
+
+
+    justify-content: space-between;
+    align-items: center;
+}
+.nav1{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+}
+.nav2 ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    right: 0;
+}
+.nav2 li{
+    margin: 5px;
+    padding: 6px;
+    font-size: 17px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.nav2 li:hover{
+    border: 2px solid rgb(181, 220, 255);
+    color: rgb(181, 220, 255);
+    background-color: black;
+
+}
+
+main{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgb(181, 220, 255);
+    background-size: 100vw 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#complain{
+    margin: 50px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    font-size: 18px;
+}
+.inp{
+    margin: 5px;
+    padding: 10px;
+    height: 40px;
+    font-size: 15px;
+    background-color: rgb(210, 234, 255);
+    color: rgb(135,157,221);
+    border: 2px solid rgb(181, 220, 255);
+    border-radius: 20px;
+}
+#but{
+    width: 125px;
+    font-size: 18px;
+    color: rgb(135,157,221);
+    background-color: rgb(181, 220, 255);
+    border: 2px solid rgb(135,157,221);
+    border-radius: 20px;
+    cursor: pointer;
+}
+#but:hover{
+    background-color: rgb(135,157,221 );
+    border: 2px solid rgb(181, 220, 255);
+    color: rgb(181, 220, 255);
+}

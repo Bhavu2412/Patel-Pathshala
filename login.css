@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(181, 220, 255);
+}
+img{
+    border-radius: 50px;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 10vh;
+    background: rgb(135,157,221);
+    justify-content: space-between;
+    align-items: center;
+}
+.nav1{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+}
+.nav2 ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    right: 0;
+}
+.nav2 li{
+    margin: 5px;
+    padding: 6px;
+    font-size: 17px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.nav2 li:hover{
+    border: 2px solid rgb(181, 220, 255);
+    color: rgb(181, 220, 255);
+    background-color: black;
+
+}
+
+main{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgb(181, 220, 255);
+    background-size: 100vw 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 5px;
+    width: 50vw;
+    height: 100vh;
+    background-color: rgb(135,157,221);
+    text-align: center;
+    border: 5px solid rgb(135,157,221);
+    border-radius: 10px;
+}
+#head{
+    margin-top: 20px;
+}
+#login input{
+    margin: 10px;
+    padding: 10px;
+    width: 30vw;
+    background-color: rgb(181, 220, 255);
+    border: 1px solid rgb(135,157,221);
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+.signin{
+    width: 30vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.signin:hover{
+    color: black;
+    border: 2px solid black;
+    font-size: 19px;
+}
+#submit{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(181, 220, 255);
+    color: black;
+    border: 1px solid rgb(181, 220, 255);
+    border-radius: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+}
+#submit:hover{
+   height: 53px;
+    width: 158px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.forget:hover{
+    font-size: 19px;
+    cursor: pointer;
+}
+#don{
+    color: grey;
+}
+.signup{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+#signup:hover{
+    color:  rgb(181, 220, 255);
+    font-size: 16px;
+}
